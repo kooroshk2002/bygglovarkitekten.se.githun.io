@@ -1,1 +1,1 @@
-# bygglovarkitekten.se.githun.io
+# bygglovarkitekten.se.github.io
