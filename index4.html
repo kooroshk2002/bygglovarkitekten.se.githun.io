@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bygglovarkitekten - Kontakta oss</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #4e54c8, #8f94fb);
+            padding: 4rem 1rem;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        header p {
+            font-size: 1.3rem;
+        }
+        section {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .contact-form {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            max-width: 700px;
+            margin: 2rem auto;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 1rem;
+            margin: 0.8rem 0;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 1rem;
+        }
+        .contact-form button {
+            background: #00c853;
+            border: none;
+            padding: 1rem 2rem;
+            margin-top: 1rem;
+            border-radius: 40px;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .contact-form button:hover {
+            background: #00b34d;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            font-size: 0.9rem;
+        }
+        /* "Kontakta oss" sektion */
+        #contact {
+            background: url('https://images.unsplash.com/photo-1542744095-291d1f67b221?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+            padding: 6rem 1rem;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+        #contact .overlay {
+            background: rgba(0,0,0,0.6);
+            padding: 3rem;
+            border-radius: 20px;
+            max-width: 700px;
+            margin: auto;
+        }
+        #contact img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+            transition: transform 0.3s ease;
+        }
+        #contact img:hover {
+            transform: scale(1.05);
+        }
+        #contact a.button {
+            background: #00c853;
+            padding: 1rem 2.5rem;
+            color: white;
+            border-radius: 40px;
+            font-weight: bold;
+            font-size: 1.3rem;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 2rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: background 0.3s;
+        }
+        #contact a.button:hover {
+            background: #00b34d;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Välkommen till Bygglovarkitekten</h1>
+        <p>Vi hjälper dig med bygglov och arkitekttjänster</p>
+    </header>
+
+    <section>
+        <div class="contact-form">
+            <h2>Skicka ett meddelande</h2>
+            <form action="mailto:info@bygglovarkitekten.se" method="post" enctype="text/plain">
+                <input type="text" name="Namn" placeholder="Fyll i ditt namn" required>
+                <input type="email" name="E-post" placeholder="Fyll i din e-postadress" required>
+                <textarea name="Meddelande" rows="6" placeholder="Skriv ditt meddelande" required></textarea>
+                <button type="submit">📧 Skicka e-post till oss</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="overlay">
+            <h2>Kontakta oss direkt</h2>
+            <p>Vi svarar snabbt på alla frågor!</p>
+            <a href="mailto:info@bygglovarkitekten.se">
+                <img src="b580cd09-3ead-46ab-b1a0-64b8a7abd4bc.png" alt="Kontakta oss">
+            </a>
+            <br>
+            <a href="mailto:info@bygglovarkitekten.se" class="button">📧 Skicka e-post</a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Bygglovarkitekten. Alla rättigheter förbehållna.
+    </footer>
+
+</body>
+</html>
